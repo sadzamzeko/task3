@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFFFFF; */
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    height: 96px;
+    /* background-color: rgb(162, 158, 167); */
+    margin: 0 auto;
+    font-size: 20px;
+}
+header ul{
+    display: flex;
+}
+.middle-link{
+    margin: 0 121px;
+}
+.active-link{
+    color: #F50808;
+}
+.inactive-link{
+    color: #2414DB;
+}
+Section{
+    width: 780px;
+    height: 116px;
+    /* background-color: red; */
+    margin: 120px 0 120px 130px;
+}
+.homeSection h1{
+    color: #17326E;
+    font-weight: 400;
+}
+Section p{
+    color: #090346;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    margin-top: 24px;
+}
+
+article{
+    max-width: 1440px;
+    /* height: 439px; */
+    background-color: #EBEBF0;
+}
+article .cars {
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars .middle-cars{
+    margin: 0 20px;
+}
+
+footer{
+    max-width: 1440px;
+    height: 161px;
+    background-color: #19126B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 130px;
+}
+
+footer ul{
+    display: flex;
+}
+footer .middle-icon{
+    margin: 0 20px;
+}
+
+footer .copyright{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.aboutSection{
+    height: 188px;
+    /* background-color: antiquewhite; */
+}
+.aboutSection h1{
+    color: #19126B;
+    font-weight: 400;
+}
+
+article .aboutArticle{
+    height: 439px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.storyBox{
+    width: 519px;
+    height: 260px;
+    /* background-color: aquamarine; */
+    /* margin-left: 130px; */
+
+}
+.storyBox h1{
+    color: #19126B;
+    line-height: 43.57px;
+}
+.storyBox p{
+    color: #090346;
+    font: 20px;
+    margin-top: 24px;
+}
+
+.aboutArticle{
+    padding: 73px 130px;
+}
+
+.contactSection{
+    height: 92px;
+}
+
+.contactSection h1{
+    color: #19126B;
+}
+
+
+.contactBox{
+    width: 323px;
+    height: 142px;
+}
+
+.contactBox h1{
+    color: #19126B;
+}
+
+address{
+    margin-top: 24px;
+    font-style: normal;
+}
+
+.contactBox a{
+    color: #000000;
+    display: block;
+    margin-top: 10px;
+}
+
+span{
+    color: #0D69A9;
+}
